@@ -1,0 +1,28 @@
+MultiDisk:
+
+Faire de plusieurs DD un seul disque
+
+Shema:
+
+-ROOT (as dir)
+|
+|------>Dirs
+	|
+	|->Files
+
+add	64bits
+
+Mémoire:
+map
+
+
+
+
+-Dirs:
+	0xXXXXh	code début
+	add	adresse fin
+	-Pour chaque element:
+		0xXXXXh 	code element(fichier/dossier)
+		0xXXh		id fichier element
+		add		add elem
+	0xXXXXh	code fin element

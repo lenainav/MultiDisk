@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1424804418 source:c:\users\voyez\documents\code blocks\multidisk\main.c
+	<stdlib.h>
+	<stdio.h>
+	"Disk.h"
+
+1424892673 c:\users\voyez\documents\code blocks\multidisk\disk.h
+	<stdio.h>
+	"DiskFile.h"
+	"MemMap.h"
+
+1424882184 c:\users\voyez\documents\code blocks\multidisk\diskfile.h
+	<stdint.h>
+	<stdio.h>
+
+1424891807 c:\users\voyez\documents\code blocks\multidisk\memmap.h
+	"Entite.h"
+	<stdio.h>
+
+1424892687 c:\users\voyez\documents\code blocks\multidisk\entite.h
+
