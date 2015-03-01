@@ -30,12 +30,20 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c99" />
 		</Compiler>
+		<Unit filename="Core.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="Disk.h" />
 		<Unit filename="DiskFile.h" />
 		<Unit filename="DiskManager.h" />
+		<Unit filename="DiskMap.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="DiskMap.h" />
 		<Unit filename="Entite.h" />
+		<Unit filename="File.h" />
 		<Unit filename="Graph.h" />
 		<Unit filename="MemMap.h" />
 		<Unit filename="core.h" />

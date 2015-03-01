@@ -1,15 +1,16 @@
 # depslib dependency file v1.0
-1424804418 source:c:\users\voyez\documents\code blocks\multidisk\main.c
+1424892703 source:c:\users\voyez\documents\code blocks\multidisk\main.c
 	<stdlib.h>
 	<stdio.h>
 	"Disk.h"
 
-1424892673 c:\users\voyez\documents\code blocks\multidisk\disk.h
+1424894880 c:\users\voyez\documents\code blocks\multidisk\disk.h
 	<stdio.h>
 	"DiskFile.h"
 	"MemMap.h"
+	"DiskMap.h"
 
-1424882184 c:\users\voyez\documents\code blocks\multidisk\diskfile.h
+1424894151 c:\users\voyez\documents\code blocks\multidisk\diskfile.h
 	<stdint.h>
 	<stdio.h>
 
@@ -17,5 +18,15 @@
 	"Entite.h"
 	<stdio.h>
 
-1424892687 c:\users\voyez\documents\code blocks\multidisk\entite.h
+1424893961 c:\users\voyez\documents\code blocks\multidisk\entite.h
+
+1425121359 c:\users\voyez\documents\code blocks\multidisk\diskmap.h
+	<stdio.h>
+	<stdint.h>
+
+1425121222 source:c:\users\voyez\documents\code blocks\multidisk\core.c
+	"Core.h"
+
+1425121093 c:\users\voyez\documents\code blocks\multidisk\core.h
+	<stdio.h>
 
